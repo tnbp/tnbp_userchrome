@@ -224,6 +224,11 @@
   border-radius: 10px 10px 0px 0px;
 }
 
+.tab-content
+{
+   padding-bottom: 7px !important;
+}
+
 /* CURVED TABS */
 /*[[CT]]*/
 
