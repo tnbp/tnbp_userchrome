@@ -16,13 +16,45 @@
     color: orangered !important;
     border-left: none !important;
     position: absolute !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }
 
 #PanelUI-menu-button {
     list-style-image: url("fxmenu.png") !important;
+    margin-left: 5px !important;
+    padding-right: 0px !important;
 }
 
 #PanelUI-menu-button > .toolbarbutton-badge-stack {
     background-color: #ffd080;
     border: 1px solid #d96300;
+    margin-bottom: -10px; 
+    height: 42px; 
+    width: 42px;
+    padding-left: 12px !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+}
+
+ .tab-background {
+   border-radius: 0px 0px !important;
+   margin-bottom: 0px !important;
+ }
+
+ .tabbrowser-tab:not([selected=true]):not([multiselected=true]) .tab-background {
+   background-color: color-mix(in srgb, currentColor 5%, transparent);
+ }
+
+ menupopup>menu,
+ menupopup>menuitem {
+   padding-block: 2px !important;
+ }
+
+ :root {
+   --arrowpanel-menuitem-padding: 2px !important;
+ }
+
+#tabbrowser-arrowscrollbox {
+    padding-left: 5px;
 }
