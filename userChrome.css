@@ -23,11 +23,26 @@
 #PanelUI-menu-button {
     list-style-image: url("fxmenu.png") !important;
     margin-left: 5px !important;
-    /*padding-right: 0px !important;*/
+}
+
+#PanelUI-menu-button:hover {
+    list-style-image: url("fxmenu_hover.png") !important;
+    margin-left: 5px !important;
 }
 
 #PanelUI-menu-button > .toolbarbutton-badge-stack {
     background-color: #ffd080;
+    border: 1px solid #d96300;
+    margin-bottom: -10px; 
+    height: 42px; 
+    width: 42px;
+    padding-left: 12px !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+}
+
+#PanelUI-menu-button:hover > .toolbarbutton-badge-stack {
+    background-color: #ff7507 !important;
     border: 1px solid #d96300;
     margin-bottom: -10px; 
     height: 42px; 
