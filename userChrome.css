@@ -86,7 +86,7 @@ tab.tabbrowser-tab:not(:-moz-window-inactive) {
 }
 
 toolbarbutton.toolbarbutton-1:hover {
-  color: darkgray !important;
+  color: rgb(49, 54, 59) !important;
 }
 
 #tabs-newtab-button {
