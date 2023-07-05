@@ -66,3 +66,21 @@
 #unified-extensions-button {
   display: none;
 }
+
+#titlebar {
+  background-color: InactiveCaption !important;
+}
+
+#alltabs-button image.toolbarbutton-icon {
+  color: black;
+  fill: black;
+}
+
+#alltabs-button image.toolbarbutton-icon::-moz-window-inactive {
+  color: gray !important;
+  fill: gray !important;
+}
+
+toolbarbutton.toolbarbutton-1:hover {
+  color: darkgray !important;
+}
