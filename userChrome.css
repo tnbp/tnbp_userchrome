@@ -18,6 +18,7 @@
     position: absolute !important;
     padding-left: 0px !important;
     padding-right: 0px !important;
+    padding-
 }
 
 #PanelUI-menu-button {
@@ -50,6 +51,10 @@
     padding-left: 12px !important;
     padding-top: 12px !important;
     padding-bottom: 12px !important;
+}
+
+stack.toolbarbutton-badge-stack {
+  bottom: -6px;  
 }
 
  .tab-background {
@@ -102,6 +107,10 @@ tab.tabbrowser-tab:-moz-window-inactive {
 #alltabs-button image.toolbarbutton-icon::-moz-window-inactive {
   color: gray !important;
   fill: gray !important;
+}
+
+#PanelUI-menu-button stack image {
+  margin-top: -2px;
 }
 
 toolbarbutton.toolbarbutton-1:hover {
