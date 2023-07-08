@@ -95,6 +95,10 @@ tab.tabbrowser-tab:not(:-moz-window-inactive) {
   color: rgb(49, 54, 59) !important;
 }
 
+tab.tabbrowser-tab:-moz-window-inactive {
+  color: #7F7F7F !important;
+}
+
 #alltabs-button image.toolbarbutton-icon::-moz-window-inactive {
   color: gray !important;
   fill: gray !important;
