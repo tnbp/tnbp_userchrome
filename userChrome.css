@@ -34,46 +34,44 @@
 #PanelUI-menu-button > .toolbarbutton-badge-stack {
     background-color: #ffd080;
     border: 1px solid #d96300;
-    margin-bottom: -10px; 
+    /*margin-bottom: -10px; */
     height: 42px; 
     width: 42px;
     padding-left: 12px !important;
     padding-top: 12px !important;
     padding-bottom: 12px !important;
+    margin-top: 6px;
 }
 
 #PanelUI-menu-button:hover > .toolbarbutton-badge-stack {
     background-color: #ff7507 !important;
     border: 1px solid #d96300;
-    margin-bottom: -10px; 
+    /*margin-bottom: -10px; */
     height: 42px; 
     width: 42px;
     padding-left: 12px !important;
     padding-top: 12px !important;
     padding-bottom: 12px !important;
+    margin-top: 6px;
 }
 
-stack.toolbarbutton-badge-stack {
-  bottom: -6px;  
-}
-
- .tab-background {
+.tab-background {
    border-radius: 0px 0px !important;
    margin-bottom: 0px !important;
- }
+}
 
- .tabbrowser-tab:not([selected=true]):not([multiselected=true]) .tab-background {
+.tabbrowser-tab:not([selected=true]):not([multiselected=true]) .tab-background {
    background-color: color-mix(in srgb, currentColor 5%, transparent);
- }
+}
 
- menupopup>menu,
- menupopup>menuitem {
+menupopup>menu,
+menupopup>menuitem {
    padding-block: 2px !important;
- }
+}
 
- :root {
-   --arrowpanel-menuitem-padding: 2px !important;
- }
+:root {
+  --arrowpanel-menuitem-padding: 2px !important;
+}
 
 #tabbrowser-arrowscrollbox {
     padding-left: 5px;
