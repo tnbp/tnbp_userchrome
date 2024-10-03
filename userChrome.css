@@ -134,3 +134,11 @@ menu:hover {
 #downloads-button:not(:-moz-window-inactive) {
   color: rgb(49, 54, 59) !important;
 }
+
+#nav-bar-customization-target toolbaritem:last-of-type {
+  margin-right: 1em !important;
+}
+
+#alltabs-button {
+  display: none !important; /* fuck you. */
+}
