@@ -64,6 +64,10 @@
    background-color: color-mix(in srgb, currentColor 5%, transparent);
 }
 
+.tabbrowser-tab:not([selected=true]) label {
+  color: color-mix(in srgb, currentColor 60%, transparent);
+}
+
 menupopup>menu,
 menupopup>menuitem {
    padding-block: 2px !important;
