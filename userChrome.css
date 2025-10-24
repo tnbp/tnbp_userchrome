@@ -153,3 +153,17 @@ menu:hover {
 #TabsToolbar-customization-target {
   height: 38px;
 }
+
+#PersonalToolbar {
+  z-index: 1 !important;
+  border-top: 1px solid lightgray !important;
+}
+
+
+/* Element | chrome://browser/content/browser.xhtml */
+
+#appMenu-popup {
+  position: absolute;
+  margin-left: 250px;
+  width: 250px;
+}
