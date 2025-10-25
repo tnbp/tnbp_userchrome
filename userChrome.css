@@ -159,11 +159,8 @@ menu:hover {
   border-top: 1px solid lightgray !important;
 }
 
-
-/* Element | chrome://browser/content/browser.xhtml */
-
 #appMenu-popup {
-  position: absolute;
-  margin-left: 250px;
+  position: absolute !important;
+  margin-left: 250px !important;
   width: 250px;
 }
