@@ -1,79 +1,79 @@
 #nav-bar { /* main toolbar */
-    -moz-box-ordinal-group: 1 !important;
-    border-top-width: 0 !important; 
+	-moz-box-ordinal-group: 1 !important;
+	border-top-width: 0 !important; 
 }
 #PersonalToolbar { /* bookmarks toolbar */
-    -moz-box-ordinal-group: 2 !important;
+	-moz-box-ordinal-group: 2 !important;
 }
 #TabsToolbar { /* tab bar */
-    -moz-box-ordinal-group: 3 !important;
+	-moz-box-ordinal-group: 3 !important;
 }
 
 /* Move the Open Menu, 3-bar button to the left & change its color */
 
 #PanelUI-button {
-    -moz-box-ordinal-group: 0 !important;
-    color: orangered !important;
-    border-left: none !important;
-    position: absolute !important;
-    padding-left: 0px !important;
-    padding-right: 0px !important;
+	-moz-box-ordinal-group: 0 !important;
+	color: orangered !important;
+	border-left: none !important;
+	position: absolute !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
 }
 
 #PanelUI-menu-button {
-    list-style-image: url("fxmenu.png") !important;
-    margin-left: 5px !important;
+	list-style-image: url("fxmenu.png") !important;
+	margin-left: 5px !important;
 }
 
 #PanelUI-menu-button:hover {
-    list-style-image: url("fxmenu_hover.png") !important;
-    margin-left: 5px !important;
+	list-style-image: url("fxmenu_hover.png") !important;
+	margin-left: 5px !important;
 }
 
 #PanelUI-menu-button > .toolbarbutton-badge-stack {
-    background-color: #ffd080;
-    border: 1px solid #d96300;
-    /*margin-bottom: -10px; */
-    height: 42px; 
-    width: 42px;
-    padding-left: 12px !important;
-    padding-top: 12px !important;
-    padding-bottom: 12px !important;
-    margin-top: 6px;
+	background-color: #ffd080;
+	border: 1px solid #d96300;
+	/*margin-bottom: -10px; */
+	height: 42px; 
+	width: 42px;
+	padding-left: 12px !important;
+	padding-top: 12px !important;
+	padding-bottom: 12px !important;
+	margin-top: 6px;
 }
 
 #PanelUI-menu-button:hover > .toolbarbutton-badge-stack {
-    background-color: #ff7507 !important;
-    border: 1px solid #d96300;
-    /*margin-bottom: -10px; */
-    height: 42px; 
-    width: 42px;
-    padding-left: 12px !important;
-    padding-top: 12px !important;
-    padding-bottom: 12px !important;
-    margin-top: 6px;
+	background-color: #ff7507 !important;
+	border: 1px solid #d96300;
+	/*margin-bottom: -10px; */
+	height: 42px; 
+	width: 42px;
+	padding-left: 12px !important;
+	padding-top: 12px !important;
+	padding-bottom: 12px !important;
+	margin-top: 6px;
 }
 
 .tab-background {
-   border-radius: 0px 0px !important;
-   margin-bottom: 0px !important;
+	border-radius: 0px 0px !important;
+	margin-bottom: 0px !important;
 }
 
 .tabbrowser-tab:not([selected=true]):not([multiselected=true]) .tab-background {
-   background-color: color-mix(in srgb, currentColor 5%, transparent);
+	background-color: color-mix(in srgb, currentColor 5%, transparent);
 }
 
 .tabbrowser-tab:not([selected=true]) label {
-  color: color-mix(in srgb, currentColor 60%, transparent);
+	color: color-mix(in srgb, currentColor 60%, transparent);
 }
 
 menupopup>menu,
 menupopup>menuitem {
-   padding-block: 2px !important;
+	padding-block: 2px !important;
 }
 
 :root {
-  --arrowpanel-menuitem-padding: 2px !important;
+	--arrowpanel-menuitem-padding: 2px !important;
 }
 
 #tabbrowser-arrowscrollbox {
@@ -81,86 +81,132 @@ menupopup>menuitem {
 }
 
 #nav-bar-customization-target {
-  padding-left: 50px !important;
+	padding-left: 50px !important;
 }
 
 #unified-extensions-button {
-  display: none;
+	display: none;
 }
 
 #titlebar {
-  background-color: InactiveCaption !important;
+	background-color: InactiveCaption !important;
 }
 
 #alltabs-button image.toolbarbutton-icon:not(:-moz-window-inactive) {
-  color: darkgray !important;
-  fill: darkgray !important;
+	color: darkgray !important;
+	fill: darkgray !important;
 }
 
 tab.tabbrowser-tab:not(:-moz-window-inactive) {
-  color: rgb(49, 54, 59) !important;
+	color: rgb(49, 54, 59) !important;
 }
 
 tab.tabbrowser-tab:-moz-window-inactive {
-  color: #7F7F7F !important;
+	color: #7F7F7F !important;
 }
 
 #alltabs-button image.toolbarbutton-icon::-moz-window-inactive {
-  color: gray !important;
-  fill: gray !important;
+	color: gray !important;
+	fill: gray !important;
 }
 
 #PanelUI-menu-button stack image {
-  margin-top: -2px;
+	margin-top: -2px;
 }
 
 toolbarbutton.toolbarbutton-1:hover {
-  color: rgb(49, 54, 59) !important;
+	color: rgb(49, 54, 59) !important;
 }
 
 #tabs-newtab-button {
-  color: darkgray !important;
+	color: darkgray !important;
 }
 
 #tabs-newtab-button:hover {
-  color: rgb(49, 54, 59) !important;
+	color: rgb(49, 54, 59) !important;
 }
 
 menu {
-  color: rgb(49, 54, 59) !important;
+	color: rgb(49, 54, 59) !important;
 }
 
 menu:hover {
-  background-color: ActiveCaption !important;
+	background-color: ActiveCaption !important;
 }
 
 #downloads-button:not(:-moz-window-inactive) {
-  color: rgb(49, 54, 59) !important;
+	color: rgb(49, 54, 59) !important;
 }
 
 #nav-bar-customization-target toolbaritem:last-of-type {
-  margin-right: 1em !important;
+	margin-right: 1em !important;
 }
 
 #alltabs-button {
-  display: none !important; /* fuck you. */
+	display: none !important; /* fuck you. */
 }
 
 .tabbrowser-tab {
-  height: 36px;
+	height: 36px;
 }
 
 #TabsToolbar-customization-target {
-  height: 38px;
+	height: 38px;
 }
 
 #PersonalToolbar {
-  z-index: 1 !important;
-  border-top: 1px solid lightgray !important;
+	z-index: 1 !important;
+	border-top: 1px solid lightgray !important;
 }
 
 #appMenu-popup {
-  position: absolute !important;
-  margin-left: 250px !important;
-  width: 250px;
+	position: absolute !important;
+	margin-left: 250px !important;
+	width: 250px;
+}
+
+#webext-perms-update-menu-item {
+	display: none;
+}
+
+label.toolbarbutton-badge {
+	display: none !important;
+}
+
+panelview#appMenu-mainView toolbarbutton:hover,
+menupopup menuitem:hover label,
+menupopup menu:hover span:first-of-type,
+menupopup menu:hover,
+toolbarbutton.bookmark-item:hover,
+#context-navigation menuitem:hover,
+#context-navigation menuitem:hover img,
+#nav-bar-customization-target toolbarbutton:not([disabled=true]):hover image,
+#urlbar-results div:hover,
+#downloads-button:hover .toolbarbutton-badge-stack,
+#downloads-button:active .toolbarbutton-badge-stack,
+#TabsToolbar-customization-target toolbaritem box toolbarbutton:hover stack,
+box.unified-extensions-item-row-wrapper toolbarbutton:hover stack,
+box.unified-extensions-item-row-wrapper toolbarbutton:hover stack image,
+#tabs-newtab-button:hover image,
+hbox.tab-content image.tab-close-button:hover,
+#downloadsHistory:hover,
+richlistitem:hover,
+#star-button-box:hover,
+#tracking-protection-icon-container:hover,
+#identity-box box:hover,
+#main-button span.button-background:hover,
+#PlacesChevron:hover,
+#menuWebDeveloperPopup menuitem:hover,
+#appmenu-developer-tools-view toolbarbutton:hover,
+#appmenu-moreTools-button:hover,
+toolbarbutton.subviewbutton:hover {
+	background-color: #aeded6 !important;
+}
+
+menupopup#contentAreaContextMenu {
+	background-color: none !important;
+}
+
+.menupopup-arrowscrollbox {
+	background-color: white !important;
 }
