@@ -1,3 +1,7 @@
+:root {
+	--tnbp-highlight-color: #aeded6;
+}
+
 #nav-bar { /* main toolbar */
 	-moz-box-ordinal-group: 1 !important;
 	border-top-width: 0 !important; 
@@ -77,7 +81,7 @@ menupopup>menuitem {
 }
 
 #tabbrowser-arrowscrollbox {
-    padding-left: 5px;
+	padding-left: 5px;
 }
 
 #nav-bar-customization-target {
@@ -174,12 +178,12 @@ label.toolbarbutton-badge {
 }
 
 panelview#appMenu-mainView toolbarbutton:hover,
-menupopup menuitem:hover label,
-menupopup menu:hover span:first-of-type,
-menupopup menu:hover,
+menupopup menuitem:not([disabled=true]):hover label,
+menupopup menu:not([disabled=true]):hover span:first-of-type,
+menupopup menu:not([disabled=true]):hover,
 toolbarbutton.bookmark-item:hover,
-#context-navigation menuitem:hover,
-#context-navigation menuitem:hover img,
+#context-navigation menuitem:not([disabled=true]):hover,
+#context-navigation menuitem:not([disabled=true]):hover img,
 #nav-bar-customization-target toolbarbutton:not([disabled=true]):hover image,
 #urlbar-results div:hover,
 #downloads-button:hover .toolbarbutton-badge-stack,
@@ -190,7 +194,7 @@ box.unified-extensions-item-row-wrapper toolbarbutton:hover stack image,
 #tabs-newtab-button:hover image,
 hbox.tab-content image.tab-close-button:hover,
 #downloadsHistory:hover,
-richlistitem:hover,
+richlistitem:not([disabled=true]):hover,
 #star-button-box:hover,
 #tracking-protection-icon-container:hover,
 #identity-box box:hover,
@@ -199,7 +203,7 @@ richlistitem:hover,
 #menuWebDeveloperPopup menuitem:hover,
 #appmenu-developer-tools-view toolbarbutton:hover,
 #appmenu-moreTools-button:hover,
-toolbarbutton.subviewbutton:hover {
+toolbarbutton.subviewbutton:not([disabled=true]):hover {
 	background-color: #aeded6 !important;
 }
 
