@@ -1,10 +1,10 @@
 :root {
-	--tnbp-highlight-color: #aeded6;
+  --tnbp-highlight-color: #aeded6;
 }
 
 #nav-bar { /* main toolbar */
 	-moz-box-ordinal-group: 1 !important;
-	border-top-width: 0 !important; 
+	border-top-width: 0 !important;
 }
 #PersonalToolbar { /* bookmarks toolbar */
 	-moz-box-ordinal-group: 2 !important;
@@ -38,7 +38,7 @@
 	background-color: #ffd080;
 	border: 1px solid #d96300;
 	/*margin-bottom: -10px; */
-	height: 42px; 
+	height: 42px;
 	width: 42px;
 	padding-left: 12px !important;
 	padding-top: 12px !important;
@@ -50,7 +50,7 @@
 	background-color: #ff7507 !important;
 	border: 1px solid #d96300;
 	/*margin-bottom: -10px; */
-	height: 42px; 
+	height: 42px;
 	width: 42px;
 	padding-left: 12px !important;
 	padding-top: 12px !important;
@@ -178,9 +178,9 @@ label.toolbarbutton-badge {
 }
 
 panelview#appMenu-mainView toolbarbutton:hover,
-menupopup menuitem:not([disabled=true]):hover label,
-menupopup menu:not([disabled=true]):hover span:first-of-type,
-menupopup menu:not([disabled=true]):hover,
+menupopup:not(#ContentSelectDropdownPopup) menuitem:not([disabled=true]):hover label,
+menupopup:not(#ContentSelectDropdownPopup) menu:not([disabled=true]):hover span:first-of-type,
+menupopup:not(#ContentSelectDropdownPopup) menu:not([disabled=true]):hover,
 toolbarbutton.bookmark-item:hover,
 #context-navigation menuitem:not([disabled=true]):hover,
 #context-navigation menuitem:not([disabled=true]):hover img,
@@ -204,7 +204,7 @@ richlistitem:not([disabled=true]):hover,
 #appmenu-developer-tools-view toolbarbutton:hover,
 #appmenu-moreTools-button:hover,
 toolbarbutton.subviewbutton:not([disabled=true]):hover {
-	background-color: #aeded6 !important;
+	background-color: var(--tnbp-highlight-color) !important;
 }
 
 menupopup#contentAreaContextMenu {
@@ -212,5 +212,5 @@ menupopup#contentAreaContextMenu {
 }
 
 .menupopup-arrowscrollbox {
-	background-color: white !important;
+	background-color: white;
 }
