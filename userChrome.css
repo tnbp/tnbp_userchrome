@@ -214,3 +214,7 @@ menupopup#contentAreaContextMenu {
 .menupopup-arrowscrollbox {
 	background-color: white;
 }
+
+label.tab-text.tab-label:is([selected], [multiselected]) {
+   color: black !important;
+}
