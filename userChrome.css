@@ -218,3 +218,8 @@ menupopup#contentAreaContextMenu {
 label.tab-text.tab-label:is([selected], [multiselected]) {
    color: black !important;
 }
+
+#PanelUI-menu-button stack.toolbarbutton-badge-stack {
+	border-radius: 5px !important;
+	top: -4px !important;
+}
