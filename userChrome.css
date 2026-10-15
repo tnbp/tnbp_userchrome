@@ -35,7 +35,7 @@
 }
 
 #PanelUI-menu-button > .toolbarbutton-badge-stack {
-	background-color: #ffd080;
+	background-color: #ffd080 !important;
 	border: 1px solid #d96300;
 	/*margin-bottom: -10px; */
 	height: 42px;
@@ -165,8 +165,8 @@ menu:hover {
 
 #appMenu-popup {
 	position: absolute !important;
-	margin-left: 250px !important;
-	width: 250px;
+	margin-left: 275px !important;
+	width: 275px;
 }
 
 #webext-perms-update-menu-item {
@@ -222,8 +222,4 @@ label.tab-text.tab-label:is([selected], [multiselected]) {
 #PanelUI-menu-button stack.toolbarbutton-badge-stack {
 	border-radius: 5px !important;
 	top: -4px !important;
-}
-
-#appMenu-fxa-sign-in-promo {
-	display: none !important;
 }
